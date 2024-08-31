@@ -68,19 +68,19 @@ else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://sayyed:sHaTuyfkonuF5BLa@cluster0.rm44u.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #mongo db url
+DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Sayyed:sKW0UoNd4Qc8Kgp0@autifilter.kjocl8u.mongodb.net/?retryWrites=true&w=majority&appName=autifilter") #mongo db url
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "techvjautobot")
+DATABASE_NAME = environ.get('DATABASE_NAME', "MoviesBykashif")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
 # Links
-SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/Rkbotzsupport')
-UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Rkbotz')
-FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/RkMovie_group')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/Rkbotz")
-VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/Rkbotz")
+SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/nch_support')
+UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/NchSupport')
+FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/Notcrazyhuman')
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/")
 
 # Bot settings
 DELETE_TIME = int(environ.get('DELETE_TIME', 3600)) # Add time in seconds 
